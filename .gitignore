@@ -1,0 +1,68 @@
+# NPM
+*/node_modules
+*/npm-*
+
+# Localization / I18N
+scratch-blocks/common.pyc
+*/.settings
+*/.project
+scratch-blocks/*.pyc
+scratch-blocks/*.komodoproject
+scratch-blocks/nbproject/private/
+
+# Unused by scratch-blocks
+scratch-blocks/dart_compressed.js
+scratch-blocks/javascript_compressed.js
+scratch-blocks/lua_compressed.js
+scratch-blocks/php_compressed.js
+scratch-blocks/python_compressed.js
+
+# Editor
+*/.vscode
+
+scratch-blocks/accessible/*
+*/dist
+*/msg/js/*
+!*/msg/js/en.js
+*/msg/json/*
+!*/msg/json/en.json
+scratch-blocks/blockly_compressed_horizontal.js
+scratch-blocks/blockly_compressed_vertical.js
+scratch-blocks/blockly_uncompressed_horizontal.js
+scratch-blocks/blockly_uncompressed_vertical.js
+scratch-blocks/blocks_compressed_horizontal.js
+scratch-blocks/blocks_compressed_vertical.js
+scratch-blocks/blocks_compressed.js
+*/gh-pages/main.js
+*/gh-pages/playgrounds
+*/gh-pages/Gemfile.lock
+*/gh-pages/closure-library
+*/gh-pages/_site
+*/*compiler*.jar
+scratch-blocks/local_blockly_compressed_vertical.js
+*/chromedriver
+
+# Testing
+*/.nyc_output
+*/coverage
+
+
+# Build
+*/playground
+*/benchmark
+
+# Localization
+*/translations
+
+
+
+*/.opt-in
+
+# Generated translation files
+*/locale
+
+# Other generated source
+*/src/generated
+
+# Downloaded during "npm install"
+scratch-gui/static/microbit
